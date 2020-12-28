@@ -4,7 +4,7 @@ const path = require("path");
 const mysql = require("mysql");
 const jwt = require("jsonwebtoken");
 require("dotenv").config();
-
+//test
 const app = express();
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
